@@ -126,9 +126,9 @@ function crearClasePersona() {
       // Escribe una función que retorne un arreglo con los hobbies de la persona
       // Ej:
       // persona.getHobbies() // retorna ['correr', 'dormir', 'nadar']
-      return this.amigos.map(function(element) {
-        return element.nombre;
-      })
+      return this.hobbies.map(function(element) {
+        return element;
+      });
     }
 
     getPromedioEdad() {
