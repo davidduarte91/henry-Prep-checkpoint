@@ -1,0 +1,151 @@
+div {
+    width: 500px;
+    background-color: yellow;
+    margin: auto;
+}
+
+li {
+    font-size: 25px;
+    color: red;
+}
+
+img {
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+a:visited {
+    color: green;
+}
+
+/* acá abajo va los estilos del ejercicio 2 */
+
+#div-negro {
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 1px solid black;
+    border-bottom: 30px solid black;
+    border-left: 1px solid black;
+    border-right: 20px solid black;
+    padding: 10px 5px;
+    height: 200px;
+    width: 300px;
+}
+
+#uno {
+    border: red 5px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    margin: 10px auto;
+    /*falta colocarlo abajo en fixed*/
+}
+
+#uno-contact {
+    width: 60px;
+    height: auto;
+    background-color: pink;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#uno-careers {
+    width: 60px;
+    height: auto;
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+#uno-about {
+    width: 60px;
+    height: auto;
+    background-color: greenyellow;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dos {
+    border: yellow 5px solid;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+#dos-contact {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: inherit;
+}
+
+#dos-careers {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: inherit;
+}
+
+#dos-about {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: inherit;
+}
+
+#tres {
+    border: orange 5px solid;
+    height: 60px;
+    display: flex;
+    justify-content: flex-star;
+    margin: 10px auto;
+}
+
+#tres-contact {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 60px;
+}
+
+#tres-careers {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 60px;
+}
+
+#tres-about {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 60px;
+}
+
+div {
+    font-weight: bold;
+}
