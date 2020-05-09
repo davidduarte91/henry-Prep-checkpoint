@@ -118,8 +118,9 @@ function crearClasePersona() {
       // de la persona.
       // Ej:
       // persona.getFriends() // retorna ['toni', 'Leo', 'Manu']
-      var hola = [this.amigos.nombre]
-      return hola;
+      return this.amigos.map(function(element) {
+        return element.nombre;
+      })
     }
 
     getHobbies() {
