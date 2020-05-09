@@ -76,9 +76,8 @@ function pluck(array, propiedad) {
   // productos.pluck(productos, 'name') // ['TV LCD', 'Computadora']
   // pista: es una buena oportunidad para usar map.
   var nuevoArray = array.map(function(element) {
-    return array.propiedad;
+    return element.propiedad;
   });
-  return nuevoArray;
 }
 
 // me falta terminar
