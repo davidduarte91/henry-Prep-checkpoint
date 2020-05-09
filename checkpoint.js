@@ -112,21 +112,23 @@ function crearClasePersona() {
       // no debe retornar nada.
       var hola = this.hobbies.push(hobby);
     }
+
     getFriends() {
       // Escribe una función que retorne un arreglo con sólo los nombres del arreglo de amigos
       // de la persona.
       // Ej:
       // persona.getFriends() // retorna ['toni', 'Leo', 'Manu']
-      var hola = [];
-      hola = this.amigos.nombre
+      var hola = [this.amigos.nombre]
+      return hola;
     }
 
     getHobbies() {
       // Escribe una función que retorne un arreglo con los hobbies de la persona
       // Ej:
       // persona.getHobbies() // retorna ['correr', 'dormir', 'nadar']
-      var hola = this.amigos.nombre.push(arguments);
-      return hola;
+      return this.amigos.map(function(element) {
+        return element.nombre;
+      })
     }
 
     getPromedioEdad() {
@@ -142,6 +144,9 @@ function crearClasePersona() {
       //   }]
       // }
       // persona.getPromedioEdad() // retorna 29
+      return this.amigos.reduce(function(acc, element) {
+        return acc + element.edad
+      },0) / this.amigos.length;
     }
   };
 
